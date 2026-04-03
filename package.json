@@ -1,0 +1,10 @@
+{
+  "name": "nl-spec-test-sandbox",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "echo build-ok",
+    "lint": "echo lint-ok",
+    "test": "echo test-ok"
+  }
+}

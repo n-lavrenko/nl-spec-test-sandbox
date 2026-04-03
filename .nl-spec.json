@@ -1,0 +1,6 @@
+{
+  "specs_dir": "specs",
+  "default_branch": "main",
+  "test_command": "pnpm test",
+  "check_timeout_ms": 30000
+}
