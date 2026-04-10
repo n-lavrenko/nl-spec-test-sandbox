@@ -1,0 +1,130 @@
+{
+  "feature_number": "mnt4galq",
+  "slug": "tmnt4galq",
+  "friendly_name": "Sandbox Test mnt4galq",
+  "mission": "software-dev",
+  "target_branch": "main",
+  "created_at": "2026-04-10T16:30:03.354Z",
+  "status": "accepting",
+  "vcs": "git",
+  "current_wave": 1,
+  "wave_base_shas": {},
+  "wave_execution": {},
+  "merged_wps": [
+    "WP01",
+    "WP02"
+  ],
+  "rework_counts": {},
+  "build_failure_counts": {},
+  "blocked_wps": [],
+  "escalation": null,
+  "current_operation": "merged:WP02",
+  "last_activity_at": "2026-04-10T16:30:19.846Z",
+  "handoff_at": null,
+  "completed_at": null,
+  "phase_timestamps": {
+    "specifying": "2026-04-10T16:30:03.354Z",
+    "clarifying": null,
+    "researching": null,
+    "exploring": null,
+    "designing": null,
+    "planning": null,
+    "tasking": null,
+    "ready": null,
+    "implementing": null,
+    "accepting": "2026-04-10T16:30:19.846Z",
+    "finalizing": null,
+    "done": null
+  },
+  "wps": {
+    "WP01": {
+      "title": "Alpha",
+      "lane": "merged",
+      "wave": 1,
+      "depends_on": [],
+      "touches": [],
+      "events": [
+        {
+          "t": "2026-04-10T16:30:03.357Z",
+          "e": "lane:planned"
+        },
+        {
+          "t": "2026-04-10T16:30:04.076Z",
+          "e": "lane:doing"
+        },
+        {
+          "t": "2026-04-10T16:30:04.274Z",
+          "e": "lane:for_review"
+        },
+        {
+          "t": "2026-04-10T16:30:04.275Z",
+          "e": "lane:done"
+        },
+        {
+          "t": "2026-04-10T16:30:11.639Z",
+          "e": "lane:merged"
+        },
+        {
+          "t": "2026-04-10T16:30:11.640Z",
+          "e": "merged"
+        }
+      ],
+      "worktree_mode": "worktree",
+      "pr_number": 85,
+      "pr_url": "https://github.com/n-lavrenko/nl-spec-test-sandbox/pull/85"
+    },
+    "WP02": {
+      "title": "Beta",
+      "lane": "merged",
+      "wave": 1,
+      "depends_on": [],
+      "touches": [],
+      "events": [
+        {
+          "t": "2026-04-10T16:30:03.358Z",
+          "e": "lane:planned"
+        },
+        {
+          "t": "2026-04-10T16:30:12.364Z",
+          "e": "lane:doing"
+        },
+        {
+          "t": "2026-04-10T16:30:12.535Z",
+          "e": "lane:for_review"
+        },
+        {
+          "t": "2026-04-10T16:30:12.536Z",
+          "e": "lane:done"
+        },
+        {
+          "t": "2026-04-10T16:30:19.303Z",
+          "e": "lane:merged"
+        },
+        {
+          "t": "2026-04-10T16:30:19.306Z",
+          "e": "merged"
+        }
+      ],
+      "worktree_mode": "worktree",
+      "pr_number": 86,
+      "pr_url": "https://github.com/n-lavrenko/nl-spec-test-sandbox/pull/86"
+    },
+    "WP03": {
+      "title": "Gamma",
+      "lane": "planned",
+      "wave": 2,
+      "depends_on": [
+        "WP01"
+      ],
+      "touches": [],
+      "events": [
+        {
+          "t": "2026-04-10T16:30:03.359Z",
+          "e": "lane:planned"
+        }
+      ]
+    }
+  },
+  "archive_path": null,
+  "completion_summary": null
+}
